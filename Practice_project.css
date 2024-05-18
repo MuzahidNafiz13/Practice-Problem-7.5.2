@@ -1,0 +1,42 @@
+.body{
+    font-family: 'Nunito', sans-serif;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.card {
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 4px 4px 8px gray;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+.section-heading{
+    text-align: center;
+}
